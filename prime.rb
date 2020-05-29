@@ -12,7 +12,6 @@ def prime?(integer)
   
   i = (3..integer).to_a
   i.none? do |num|
-  binding.pry
   integer % num == 0
   end
   
