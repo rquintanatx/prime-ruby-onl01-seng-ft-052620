@@ -11,7 +11,7 @@ def prime?(integer)
   end
   
   i = (3..integer).to_a
-  i.none? do |num|
+  i.any? do |num|
   integer % num == 0
   end
   
