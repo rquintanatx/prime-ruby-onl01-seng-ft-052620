@@ -10,7 +10,7 @@ def prime?(integer)
     return true 
   end
   
-  i = (3..integer-1).to_a
+  i = (2..integer-1).to_a
   i.any? do |num|
   integer % num == 0
   end
