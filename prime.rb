@@ -7,7 +7,7 @@ def prime?(integer)
   end
   
   if integer == 2 
-    true 
+    return true 
   end
   
   i = (3..integer).to_a
