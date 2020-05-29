@@ -16,5 +16,5 @@ def prime?(integer)
   end
   
 end
-binding.pry
+
 prime?(-1)
